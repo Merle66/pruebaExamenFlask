@@ -5,6 +5,7 @@ import { DescriptionComponent } from './components/description/description.compo
 import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
+import {ExamenComponent} from './components/examen/examen.component';
 
 const routes: Routes = [
 {
@@ -17,6 +18,9 @@ path:'analisis-sentimientos', component: AnalisisSentimientosComponent
 
   path:'description', component: DescriptionComponent
 
+},
+{
+  path: 'examen', component: ExamenComponent
 },
 
 ];
