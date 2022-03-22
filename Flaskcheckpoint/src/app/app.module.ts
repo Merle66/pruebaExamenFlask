@@ -13,6 +13,7 @@ import { DescriptionComponent } from './components/description/description.compo
 import { FlaskApiService } from './services/flask-api.service';
 import { FormsModule } from '@angular/forms';
 import { ExamenComponent } from './components/examen/examen.component';
+import { TablaExamenComponent } from './components/tabla-examen/tabla-examen.component';
 
 @NgModule({
 
@@ -23,7 +24,8 @@ import { ExamenComponent } from './components/examen/examen.component';
     AnalisisSentimientosComponent,
     WelcomeComponent,
     DescriptionComponent,
-    ExamenComponent
+    ExamenComponent,
+    TablaExamenComponent,
   ],
 
   imports: [

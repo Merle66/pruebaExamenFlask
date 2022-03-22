@@ -25,13 +25,9 @@ export class ExamenComponent implements OnInit {
     {
       console.log('Res ', res)
     });
-
   }
 
   introducirTabla(){
-
-    
-
 
     this.flask_api.analizarSentimiento(this.texto).subscribe((res) =>
     {

@@ -6,6 +6,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import {ExamenComponent} from './components/examen/examen.component';
+import { TablaExamenComponent } from './components/tabla-examen/tabla-examen.component';
 
 const routes: Routes = [
 {
@@ -22,7 +23,9 @@ path:'analisis-sentimientos', component: AnalisisSentimientosComponent
 {
   path: 'examen', component: ExamenComponent
 },
-
+{
+  path: 'tabla-examen', component: TablaExamenComponent
+},
 ];
 
 @NgModule({
