@@ -1,6 +1,7 @@
 #!bin/python
 
 #from urllib import request
+from operator import methodcaller
 from flask import Flask, jsonify, request, abort, make_response
 from flask_cors import CORS, cross_origin#CORs $pip install -U flask-cors
 
@@ -48,9 +49,13 @@ def saludo():
 def inicio():
     return "Hola, soy tu primera API"
 
-
 if __name__ == '__main__':
     app.run(debug = True)
     #app.run(debug = True, host='0.0.0.0', port=80)
+    analisis = {
+        'texto': '',
+        'sentimiento': '',
+        'carita': ''
+    }
 
 #Para el CORs https://stackoverflow.com/questions/28461001/python-flask-cors-issue#:~:text=Flask%20has%20the%20flask%2Dcors%20module.%20Following%20is%20the%20code%20snippet%20as%20well%20as%20the%20procedure.
