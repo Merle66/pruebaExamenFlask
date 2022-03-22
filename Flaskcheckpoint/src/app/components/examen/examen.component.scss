@@ -16,12 +16,16 @@ color:white;
   top: 15%;
   left: 5%;
 }
+
 .btn{
   margin-top: 3%;
   float: right;
 }
 
 .tablaResultado{
-  
+  position: absolute;
+  color: $principal;
+  padding: 0.5%;
+  background-color: blue;
 }
 
